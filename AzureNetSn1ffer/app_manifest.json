@@ -1,19 +1,18 @@
 {
   "SchemaVersion": 1,
-  "Name" : "AzureNetSn1ffer",
-  "ComponentId" : "868db670-4ada-4a10-8eac-b7777a0bbf3a",
+  "Name": "AzureNetSn1ffer",
+  "ComponentId": "868db670-4ada-4a10-8eac-b7777a0bbf3a",
   "EntryPoint": "/bin/app",
   "CmdArgs": [],
   "Capabilities": {
     "AllowedConnections": [],
     "AllowedTcpServerPorts": [],
     "AllowedUdpServerPorts": [],
-    "Gpio": [ 8, 9, 10, 12 ],
     "Uart": [],
     "I2cMaster": [],
     "SpiMaster": [],
-    "WifiConfig": false,
-    "NetworkConfig": false,
-    "SystemTime": false
+    "WifiConfig": true,
+    "NetworkConfig": true,
+    "SystemTime": true
   }
 }

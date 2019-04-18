@@ -15,23 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClInclude Include="applibs_versions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClCompile Include="epoll_timerfd_utilities.c">
+    <UpToDateCheckInput Include="app_manifest.json" />
+    <ClCompile Include="azure_netsn1ffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClInclude Include="mt3620_rdb.h">
+    <ClInclude Include="Reporter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <UpToDateCheckInput Include="app_manifest.json" />
-  </ItemGroup>  
+  </ItemGroup>
   <ItemGroup>
-    <Image Include="Icon.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
+    <ClInclude Include="azure_netsn1ffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
